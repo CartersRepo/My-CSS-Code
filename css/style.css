@@ -1,0 +1,17 @@
+h1 {
+    /* Named Color */
+    /* color: black; */
+
+    /* Hex Color */
+    /* color: #f00000; */
+    /* A 3 digit hex color is the same as the 6 digit color concated with itself. I.E. #555 = #555555 */
+    /* color: #555; */
+    /* Darkest - lightest: 0-9..a-f for a total of 16. 16*16 = 256, which lines up with the RGB representation of 0-255.*/
+    /* Hex color codes start with a pound sign or hashtag (#) and are followed by six letters and/or numbers.
+    The first two letters/numbers refer to red, the next two refer to green, and the last two refer to blue.
+    The color values are defined in values between 00 and FF (instead of from 0 to 255 in RGB). */
+
+    /* RGB Color */
+    color: rgb(0,0,0);
+    /* Colors go from 0-255, where 0,0,0 is black and 255,255,255 is white. */
+}

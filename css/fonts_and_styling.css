@@ -1,0 +1,44 @@
+.serif {
+    font-family: serif;
+}
+.sans_serif {
+    font-family: sans-serif;
+}
+.font_family {
+    font-family: "Doto", Arial, Helvetica, sans-serif
+}
+.font_style {
+    /* font-style: italic; */
+    font-style: oblique;
+}
+
+.height1 {
+    font-size: 80px;
+}
+.height2 {
+    font-size: 50px;
+}
+.height3 {
+    font-size: 30px;
+}
+.height4 {
+    font-size: 14px;
+}
+.height5 {
+    font-size: 3px;
+}
+.height6 {
+    font-size: -10px;
+}
+.font_weight_100 {
+    font-weight: 100;
+}
+.font_weight_1000 {
+    font-weight: 1000;
+}
+.font_weight_900 {
+    font-weight: 900;
+}
+#fv {
+    font-variant: small-caps;
+}

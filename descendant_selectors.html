@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selectors</title>
+    <link rel="stylesheet" href="css/descendant_selectors.css">
+</head>
+
+<body>
+    <div id="body">
+
+        <div>
+            Div text here
+            <h1>Descendant Selectors</h1>
+                <p>Paragraph text here
+                    <span>
+                        Span text here
+                    </span>
+                </p>
+            <span>
+                Another span here
+            </span>
+            <p>
+                This will be red because #body->div->p
+            </p>
+        </div>
+        <span>
+            Another span
+        </span>
+        <p>
+            Another paragraph
+        </p>
+    </div>
+
+    <span>
+        Another Span here
+    </span>
+</body>
+
+</html>

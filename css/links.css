@@ -1,0 +1,18 @@
+.link1 {
+    /* color: red; */
+    text-decoration: none;
+}
+.link1:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.link1:visited {
+    color: purple;
+    text-decoration: none;
+}
+
+.link1:active {
+    color: magenta;
+    text-decoration: none;
+}

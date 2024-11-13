@@ -1,0 +1,10 @@
+span {
+    display: block;
+    border: 1px solid blue;
+}
+
+.inline {
+    /* Need inline block if we'd like a custom height and width */
+    display: inline;
+    border: 1px solid blue;
+}

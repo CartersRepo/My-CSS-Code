@@ -1,0 +1,82 @@
+span {
+    display: block;
+    border: 1px solid blue;
+}
+
+.inline {
+    /* Need inline block if we'd like a custom height and width */
+    display: inline;
+    border: 1px solid blue;
+}
+
+.position_rel {
+    border: 1px solid red;
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.position_abs {
+    border: 1px solid blue; 
+    background-color: blue; 
+    color: white; 
+    display: inline-block; 
+    height: 50px; 
+    width: 50px; 
+    position: absolute; 
+    right: 250px; 
+    top: 130px;
+}
+
+#body {
+    min-height: 5000px;
+}
+
+.position_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 500;
+    margin-top: 200px;
+}
+
+.rel {
+    border: 1px solid red;
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+}
+
+.abs {
+    border: 1px solid blue; 
+    background-color: blue; 
+    color: white; 
+    display: inline-block;
+    height: 50px; 
+    width: 50px; 
+    position: absolute;
+    z-index: 1;
+}
+
+.abs1 {
+    border: 1px solid red; 
+    background-color: red; 
+    color: black; 
+    display: inline-block;
+    height: 50px; 
+    width: 50px;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    z-index: 0;
+}
+
+
+#body {
+    overflow: hidden;
+    overflow-x: hidden;
+}

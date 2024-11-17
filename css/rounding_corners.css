@@ -1,0 +1,20 @@
+.rounding_corners {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 10px solid red;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.inferno {
+    display: inline-block;
+    width: 1000px;
+    height: 1000px;
+    border: 10px solid red;
+    /* border-radius: 30%; */
+    border-radius: 10% 5px 80px 50%;
+    /* border-top-left-radius: 10%; */
+    background-image: url(/images/Inferno_entrance.png);
+    background-position: center;
+}

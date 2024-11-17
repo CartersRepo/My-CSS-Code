@@ -33,3 +33,48 @@ p.child:last-child {
     outline: 0px;
     opacity: 1;
 }
+
+input:disabled{
+    border: 1px solid red;
+}
+
+input:enabled{
+    border: 1px solid green;
+}
+
+p.para:not(.graph) {
+    color: yellow;
+    background-color: black;
+    /* display: none */
+}
+
+.block {
+    display: inline-block;
+    float: right;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.block::before {
+    display: inline-block;
+    content: '';
+    background-color: black;
+    position: absolute;
+    left: -200px;
+    top: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.block:hover::after {
+    display: inline-block;
+    content: '';
+    background-color: pink;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    width: 200px;
+    height: 200px;
+}

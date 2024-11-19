@@ -1,0 +1,31 @@
+.text_area {
+    width: 200px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+}
+
+.clip {
+    text-overflow: clip;
+
+}
+.ellipsis {
+    text-overflow: ellipsis;
+
+}
+.wrap {
+    word-wrap: break-word;
+    width: 300px;
+    height: 200px;
+}
+
+.break {
+    word-break: break-all;
+    width: 300px;
+    height: 200px;
+}
+
+.align {
+    text-align: left;
+}

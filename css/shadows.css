@@ -1,0 +1,16 @@
+.shadowed {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+    text-shadow: 2px 2px 6px red;
+}
+
+.box {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid #aaa;
+    margin: 50px auto;
+    box-shadow: 5px 5px 3px #aaa;
+}

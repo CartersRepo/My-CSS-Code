@@ -1,0 +1,20 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #ccc;
+    /* background: linear-gradient(to right,#ccc, #000); */
+    /* background: linear-gradient(18deg,#ccc, #000); */
+    /* background: linear-gradient(to bottom,#ccc, #000); */
+    /* background: repeating-linear-gradient(red 25%, blue 30%, yellow 20%, white); */
+    background: radial-gradient(red 15%, blue 45%, yellow 10%, white);
+    height: 100%;
+}
+
+/* .box {
+    background-color: #ccc;
+    background: linear-gradient(#ccc, #fff);
+    height: 500px;
+
+} */

@@ -1,0 +1,50 @@
+.box {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+
+.box:hover {
+    width: 100px;
+    height: 100px;
+    /* transition: 200ms width linear, 200ms height linear; */
+    transition: 200ms all linear;
+    background-color: purple;
+}
+
+.transition_test {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition-duration: 300ms;
+    transition-property: color;
+    transition-timing-function: linear;
+}
+
+.transition_test:hover {
+    color: red;
+}
+
+.parent {
+    position: relative;
+    height: 50px;
+    background-color: blue;
+}
+
+.child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    transition-duration: 2s;
+    transition-property: left;
+    transition-timing-function: ease-in-out;
+    transition-delay: 500ms;
+}
+
+.parent:hover .child {
+    left: calc(100% - 50px);
+}

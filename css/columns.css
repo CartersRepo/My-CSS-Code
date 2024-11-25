@@ -1,0 +1,8 @@
+#col {
+    columns: 3;
+    text-align: justify;
+}
+
+#area {
+    resize: both;
+}

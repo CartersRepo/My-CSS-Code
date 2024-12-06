@@ -21,34 +21,28 @@ body {
     overflow-x: hidden;
 }
 
-.flex_parent {
+.row {
     display: flex;
-    border: 1px solid red;
-
+    flex-direction: row;
+    margin: 10px;
 }
 
-.flex_parent {
-    flex-basis: 33%;
-    flex-shrink: 1;
-    flex-grow: 1;
+.col {
     border: 1px solid blue;
-    flex-direction: column;
+    flex-basis: 100%;
 }
 
-.box_1 {
+.col1 {
     flex-basis: 50%;
-    flex-shrink: 0;
+}
+
+.col2 {
+    flex-basis: 25%;
     flex-grow: 1;
-    background-color: red;
 }
 
-.box_2 {
-    flex: 0 1 25%; /*grow, shrink, basis */
-    background-color: blue;
-}
-
-.box_3 {
-    flex: 0 1 25%;
-    background-color: green;
-    order: -1;
+.col3 {
+    flex-basis: 75%;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
